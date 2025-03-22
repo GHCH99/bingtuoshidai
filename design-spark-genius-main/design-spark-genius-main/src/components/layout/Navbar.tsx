@@ -43,14 +43,11 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center">
-          <a
-            href="https://kanmy6db0cg.feishu.cn/share/base/form/shrcn05Log7HVOEc52d1ycisS5b"
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
             className="px-6 py-2 rounded-full bg-black text-white font-medium hover:bg-opacity-80 transition-all duration-200"
           >
             立即报名
-          </a>
+          </button>
         </div>
       </div>
     </nav>

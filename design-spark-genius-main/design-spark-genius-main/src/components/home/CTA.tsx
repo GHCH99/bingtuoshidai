@@ -26,6 +26,13 @@ const CTA = () => {
             <Button size="lg" className="bg-white text-black hover:bg-white/90">
               现在报名
             </Button>
+            <Button 
+              variant="outline" 
+              size="lg" 
+              className="border-white text-white hover:bg-white/10"
+            >
+              预约体验课
+            </Button>
           </div>
         </div>
       </div>

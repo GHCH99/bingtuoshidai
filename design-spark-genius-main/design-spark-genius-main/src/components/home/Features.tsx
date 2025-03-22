@@ -88,13 +88,13 @@ const Features = () => {
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="text-center mb-16">
           <Badge className="mb-6" variant="outline">
-            课程特色
+            兵拓特色
           </Badge>
           <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">
-            专业军事技能培训
+            专业军事培训体系
           </h2>
           <p className="max-w-2xl mx-auto text-muted-foreground">
-            我们提供全面系统的军事技能教学与理论课程，旨在培养学员的军事素养和实战能力。
+            兵拓时代为您提供全面系统的军事技能培训体系，从理论到实践，助您全面提升军事素养。
           </p>
         </div>
         

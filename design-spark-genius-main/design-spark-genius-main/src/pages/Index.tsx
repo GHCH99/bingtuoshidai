@@ -42,13 +42,13 @@ const Index = () => {
           <div className="max-w-7xl mx-auto px-6 md:px-12">
             <div className="text-center mb-12">
               <span className="inline-block py-1 px-3 rounded-full bg-black/5 text-sm font-medium mb-6">
-                课程计划
+                兵拓课程
               </span>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                完整的军事技能培训课程
+                全方位军事培训课程体系
               </h2>
               <p className="max-w-2xl mx-auto text-muted-foreground">
-                我们提供系统化的军事技能培训，从基础到进阶，理论与实践相结合
+                兵拓时代为您提供系统化的军事技能培训，从基础到进阶，理论与实践相结合
               </p>
             </div>
 

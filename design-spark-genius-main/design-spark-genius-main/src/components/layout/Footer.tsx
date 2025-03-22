@@ -14,7 +14,7 @@ const Footer = () => {
               </span>
             </a>
             <p className="mt-4 text-gray-400 text-sm">
-              我们是一群为国防教育添砖加瓦的热血青年。
+            我们是一群为国防教育添砖加瓦的热血青年。
             </p>
           </div>
           
@@ -32,7 +32,7 @@ const Footer = () => {
             <h3 className="font-display font-semibold text-sm mb-4 uppercase tracking-wider text-gray-400">公司</h3>
             <ul className="space-y-3">
               <FooterLink href="https://mp.weixin.qq.com/s/OUC8itGlbrtfQ-zbuZ9eFw">关于我们</FooterLink>
-              <FooterLink href="https://mp.weixin.qq.com/s/E-ScgSbsNkignXUc73KtQA">招贤纳士</FooterLink>
+              <FooterLink href="https://kanmy6db0cg.feishu.cn/share/base/form/shrcn05Log7HVOEc52d1ycisS5b">招贤纳士</FooterLink>
               <FooterLink href="https://mp.weixin.qq.com/s/LcwEUrpJyEuliWPKYXQRDg">新闻动态</FooterLink>
               <FooterLink href="#contact">联系我们</FooterLink>
             </ul>
