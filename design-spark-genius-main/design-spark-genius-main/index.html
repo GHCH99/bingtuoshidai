@@ -27,5 +27,21 @@
     <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
     <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const startServer = async () => {
+          try {
+            const process = await window.require('child_process').spawn('npm', ['run', 'dev'], {
+              shell: true,
+              detached: true
+            });
+            process.unref();
+          } catch (error) {
+            console.error('Failed to start server:', error);
+          }
+        };
+        startServer();
+      });
+    </script>
   </body>
 </html>

@@ -46,7 +46,7 @@ const Navbar = () => {
           <button
             className="px-6 py-2 rounded-full bg-black text-white font-medium hover:bg-opacity-80 transition-all duration-200"
           >
-            立即报名
+            现在报名
           </button>
         </div>
       </div>

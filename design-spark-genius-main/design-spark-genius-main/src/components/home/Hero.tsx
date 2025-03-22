@@ -63,13 +63,15 @@ const Hero = () => {
             兵拓时代致力于为军事爱好者提供全方位的专业培训，从基础训练到战术技能，助您在军事领域不断突破。
           </p>
           
-          <div className="flex flex-col sm:flex-row justify-center gap-4 animate-slide-down" 
+          <div className="flex justify-center gap-4 animate-slide-down" 
                style={{animationDelay: '0.3s'}}>
-            <Button size="lg">
-              立即报名
+            <Button size="lg" asChild>
+              <a href="https://kanmy6db0cg.feishu.cn/share/base/form/shrcn05Log7HVOEc52d1ycisS5b" target="_blank" rel="noopener noreferrer">
+                立即报名
+              </a>
             </Button>
-            <Button variant="outline" size="lg">
-              了解更多
+            <Button size="lg" variant="outline" className="hover:bg-black/5">
+              了解详情
             </Button>
           </div>
         </div>
