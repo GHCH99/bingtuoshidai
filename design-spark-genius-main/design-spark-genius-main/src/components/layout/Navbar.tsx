@@ -33,6 +33,7 @@ const Navbar = () => {
           <a href="/" className="text-2xl font-display font-bold">
             <span className="text-gradient">兵拓时代</span>
           </a>
+          <span className="ml-2 text-sm text-gray-600">- 打造未来军事精英</span>
         </div>
 
         <div className="hidden md:flex items-center space-x-8">
